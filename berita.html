@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Berita — KKN PINTAR 10 Desa Pajeng</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-7.5 7-12a7 7 0 1 0-14 0c0 4.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg> Desa Pajeng, Kec. Gondang</div>
+    <div>KKN PINTAR 10 — Universitas Nahdlatul Ulama Sunan Giri</div>
+  </div>
+</div>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <img src="logo.jpeg" alt="Logo KKN PINTAR 10" width="40" height="40" style="border-radius:50%;object-fit:cover;">
+      <span class="brand-text">KKN PINTAR 10<small>Desa Pajeng &middot; Gondang</small></span>
+    </a>
+    <ul class="nav-links" id="navlinks">
+      <li><a href="index.html">Beranda</a></li>
+      <li class="has-dropdown"><a href="profil-desa.html">Profil Desa ▾</a>
+        <div class="dropdown">
+          <a href="profil-desa.html#sejarah">Sejarah Desa</a>
+          <a href="profil-desa.html#visi-misi">Visi &amp; Misi</a>
+          <a href="profil-desa.html#struktur">Struktur Pemerintahan</a>
+        </div>
+      </li>
+      <li><a href="potensi-desa.html">Potensi Desa</a></li>
+      <li><a href="program-kerja.html">Program Kerja</a></li>
+      <li><a href="berita.html" class="active">Berita</a></li>
+      <li><a href="tim-kkn.html">Tim KKN</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="search-box">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" placeholder="Cari...">
+      </div>
+      <a href="#" class="login-link">Masuk</a>
+      <button class="navtoggle" id="navtoggle" aria-label="Buka menu">≡</button>
+    </div>
+  </div>
+</header>
+
+<section class="page-banner">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Beranda</a> / Berita</div>
+    <h1>Berita &amp; Kegiatan</h1>
+    <p>Dokumentasi kegiatan dan informasi seputar KKN PINTAR 10 di Desa Pajeng.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="edit-note reveal">Catatan template: judul &amp; isi berita masih contoh. Tambahkan berita sesungguhnya seiring kegiatan berjalan.</div>
+
+    <div class="filters reveal">
+      <button class="filter-btn active" data-filter="all">Semua</button>
+      <button class="filter-btn" data-filter="kegiatan">Kegiatan</button>
+      <button class="filter-btn" data-filter="sosialisasi">Sosialisasi</button>
+      <button class="filter-btn" data-filter="lingkungan">Lingkungan</button>
+    </div>
+
+    <div class="grid cols-3 reveal">
+      <div class="card news-card" data-category="kegiatan">
+        <div class="card-thumb"><img src="foto-berita-1.jpg" alt="Foto Berita 1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-5-4 4-2-2-5 5"/></svg></div></div>
+        <div class="card-body">
+          <div class="meta">[Tanggal] &middot; Kegiatan</div>
+          <h3>[Judul Berita 1]</h3>
+          <p>Ringkasan singkat berita atau kegiatan yang dilakukan tim KKN.</p>
+          <a href="coming-soon.html?judul=Berita%201" class="link">Baca selengkapnya &rarr;</a>
+        </div>
+      </div>
+      <div class="card news-card" data-category="sosialisasi">
+        <div class="card-thumb"><img src="foto-berita-2.jpg" alt="Foto Berita 2" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-5-4 4-2-2-5 5"/></svg></div></div>
+        <div class="card-body">
+          <div class="meta">[Tanggal] &middot; Sosialisasi</div>
+          <h3>[Judul Berita 2]</h3>
+          <p>Ringkasan singkat berita atau kegiatan yang dilakukan tim KKN.</p>
+          <a href="coming-soon.html?judul=Berita%202" class="link">Baca selengkapnya &rarr;</a>
+        </div>
+      </div>
+      <div class="card news-card" data-category="lingkungan">
+        <div class="card-thumb"><img src="foto-berita-3.jpg" alt="Foto Berita 3" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-5-4 4-2-2-5 5"/></svg></div></div>
+        <div class="card-body">
+          <div class="meta">[Tanggal] &middot; Lingkungan</div>
+          <h3>[Judul Berita 3]</h3>
+          <p>Ringkasan singkat berita atau kegiatan yang dilakukan tim KKN.</p>
+          <a href="coming-soon.html?judul=Berita%203" class="link">Baca selengkapnya &rarr;</a>
+        </div>
+      </div>
+      <div class="card news-card" data-category="kegiatan">
+        <div class="card-thumb"><img src="foto-berita-4.jpg" alt="Foto Berita 4" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-5-4 4-2-2-5 5"/></svg></div></div>
+        <div class="card-body">
+          <div class="meta">[Tanggal] &middot; Kegiatan</div>
+          <h3>[Judul Berita 4]</h3>
+          <p>Ringkasan singkat berita atau kegiatan yang dilakukan tim KKN.</p>
+          <a href="coming-soon.html?judul=Berita%204" class="link">Baca selengkapnya &rarr;</a>
+        </div>
+      </div>
+      <div class="card news-card" data-category="sosialisasi">
+        <div class="card-thumb"><img src="foto-berita-5.jpg" alt="Foto Berita 5" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-5-4 4-2-2-5 5"/></svg></div></div>
+        <div class="card-body">
+          <div class="meta">[Tanggal] &middot; Sosialisasi</div>
+          <h3>[Judul Berita 5]</h3>
+          <p>Ringkasan singkat berita atau kegiatan yang dilakukan tim KKN.</p>
+          <a href="coming-soon.html?judul=Berita%205" class="link">Baca selengkapnya &rarr;</a>
+        </div>
+      </div>
+      <div class="card news-card" data-category="lingkungan">
+        <div class="card-thumb"><img src="foto-berita-6.jpg" alt="Foto Berita 6" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-5-4 4-2-2-5 5"/></svg></div></div>
+        <div class="card-body">
+          <div class="meta">[Tanggal] &middot; Lingkungan</div>
+          <h3>[Judul Berita 6]</h3>
+          <p>Ringkasan singkat berita atau kegiatan yang dilakukan tim KKN.</p>
+          <a href="coming-soon.html?judul=Berita%206" class="link">Baca selengkapnya &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>KKN PINTAR 10</h4>
+        <p>Website resmi Kuliah Kerja Nyata Kelompok PINTAR 10 di Desa Pajeng, Kecamatan Gondang, sebagai bagian dari pengabdian mahasiswa Universitas Nahdlatul Ulama Sunan Giri (UNUGIRI) kepada masyarakat.</p>
+      </div>
+      <div>
+        <h4>Jelajahi</h4>
+        <ul>
+          <li><a href="profil-desa.html">Profil Desa</a></li>
+          <li><a href="potensi-desa.html">Potensi Desa</a></li>
+          <li><a href="program-kerja.html">Program Kerja</a></li>
+          <li><a href="berita.html">Berita</a></li>
+          <li><a href="tim-kkn.html">Tim KKN</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <ul>
+          <li>Balai Desa Pajeng, Kec. Gondang, Kab. Bojonegoro</li>
+          <li>kknpintar10.pajeng@email.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2026</span> KKN PINTAR 10 — Desa Pajeng</span>
+      <span>Universitas Nahdlatul Ulama Sunan Giri</span>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

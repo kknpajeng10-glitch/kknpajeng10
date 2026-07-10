@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Program Kerja — KKN PINTAR 10 Desa Pajeng</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-7.5 7-12a7 7 0 1 0-14 0c0 4.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg> Desa Pajeng, Kec. Gondang</div>
+    <div>KKN PINTAR 10 — Universitas Nahdlatul Ulama Sunan Giri</div>
+  </div>
+</div>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <img src="logo.jpeg" alt="Logo KKN PINTAR 10" width="40" height="40" style="border-radius:50%;object-fit:cover;">
+      <span class="brand-text">KKN PINTAR 10<small>Desa Pajeng &middot; Gondang</small></span>
+    </a>
+    <ul class="nav-links" id="navlinks">
+      <li><a href="index.html">Beranda</a></li>
+      <li class="has-dropdown"><a href="profil-desa.html">Profil Desa ▾</a>
+        <div class="dropdown">
+          <a href="profil-desa.html#sejarah">Sejarah Desa</a>
+          <a href="profil-desa.html#visi-misi">Visi &amp; Misi</a>
+          <a href="profil-desa.html#struktur">Struktur Pemerintahan</a>
+        </div>
+      </li>
+      <li><a href="potensi-desa.html">Potensi Desa</a></li>
+      <li><a href="program-kerja.html" class="active">Program Kerja</a></li>
+      <li><a href="berita.html">Berita</a></li>
+      <li><a href="tim-kkn.html">Tim KKN</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="search-box">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" placeholder="Cari...">
+      </div>
+      <a href="#" class="login-link">Masuk</a>
+      <button class="navtoggle" id="navtoggle" aria-label="Buka menu">≡</button>
+    </div>
+  </div>
+</header>
+
+<section class="page-banner">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Beranda</a> / Program Kerja</div>
+    <h1>Program Kerja KKN</h1>
+    <p>Seluruh kegiatan pengabdian Tim KKN PINTAR 10 selama masa penempatan di Desa Pajeng.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="edit-note reveal">Catatan template: judul, deskripsi, dan status program di bawah masih contoh. Ganti dengan program kerja sesungguhnya.</div>
+
+    <div class="filters reveal">
+      <button class="filter-btn active" data-filter="all">Semua</button>
+      <button class="filter-btn" data-filter="pendidikan">Pendidikan</button>
+      <button class="filter-btn" data-filter="kesehatan">Kesehatan</button>
+      <button class="filter-btn" data-filter="lingkungan">Lingkungan</button>
+      <button class="filter-btn" data-filter="ekonomi">Ekonomi</button>
+    </div>
+
+    <div class="grid cols-3 reveal">
+      <div class="card" data-category="pendidikan">
+        <div class="card-body">
+          <span class="tag-pill">Pendidikan</span>
+          <h3>[Judul Program 1]</h3>
+          <p>Deskripsi singkat kegiatan, sasaran, dan tujuan program.</p>
+          <div style="margin-top:14px;"><span class="status-pill berjalan">Berjalan</span></div>
+        </div>
+      </div>
+      <div class="card" data-category="kesehatan">
+        <div class="card-body">
+          <span class="tag-pill">Kesehatan</span>
+          <h3>[Judul Program 2]</h3>
+          <p>Deskripsi singkat kegiatan, sasaran, dan tujuan program.</p>
+          <div style="margin-top:14px;"><span class="status-pill selesai">Selesai</span></div>
+        </div>
+      </div>
+      <div class="card" data-category="lingkungan">
+        <div class="card-body">
+          <span class="tag-pill">Lingkungan</span>
+          <h3>[Judul Program 3]</h3>
+          <p>Deskripsi singkat kegiatan, sasaran, dan tujuan program.</p>
+          <div style="margin-top:14px;"><span class="status-pill berjalan">Berjalan</span></div>
+        </div>
+      </div>
+      <div class="card" data-category="ekonomi">
+        <div class="card-body">
+          <span class="tag-pill">Ekonomi</span>
+          <h3>[Judul Program 4]</h3>
+          <p>Deskripsi singkat kegiatan, sasaran, dan tujuan program.</p>
+          <div style="margin-top:14px;"><span class="status-pill rencana">Direncanakan</span></div>
+        </div>
+      </div>
+      <div class="card" data-category="pendidikan">
+        <div class="card-body">
+          <span class="tag-pill">Pendidikan</span>
+          <h3>[Judul Program 5]</h3>
+          <p>Deskripsi singkat kegiatan, sasaran, dan tujuan program.</p>
+          <div style="margin-top:14px;"><span class="status-pill selesai">Selesai</span></div>
+        </div>
+      </div>
+      <div class="card" data-category="kesehatan">
+        <div class="card-body">
+          <span class="tag-pill">Kesehatan</span>
+          <h3>[Judul Program 6]</h3>
+          <p>Deskripsi singkat kegiatan, sasaran, dan tujuan program.</p>
+          <div style="margin-top:14px;"><span class="status-pill rencana">Direncanakan</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>KKN PINTAR 10</h4>
+        <p>Website resmi Kuliah Kerja Nyata Kelompok PINTAR 10 di Desa Pajeng, Kecamatan Gondang, sebagai bagian dari pengabdian mahasiswa Universitas Nahdlatul Ulama Sunan Giri (UNUGIRI) kepada masyarakat.</p>
+      </div>
+      <div>
+        <h4>Jelajahi</h4>
+        <ul>
+          <li><a href="profil-desa.html">Profil Desa</a></li>
+          <li><a href="potensi-desa.html">Potensi Desa</a></li>
+          <li><a href="program-kerja.html">Program Kerja</a></li>
+          <li><a href="berita.html">Berita</a></li>
+          <li><a href="tim-kkn.html">Tim KKN</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <ul>
+          <li>Balai Desa Pajeng, Kec. Gondang, Kab. Bojonegoro</li>
+          <li>kknpintar10.pajeng@email.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2026</span> KKN PINTAR 10 — Desa Pajeng</span>
+      <span>Universitas Nahdlatul Ulama Sunan Giri</span>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

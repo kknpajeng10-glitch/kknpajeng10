@@ -1,0 +1,43 @@
+<svg width="100%" height="100%" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdeec2"/>
+      <stop offset="35%" stop-color="#cfe6ac"/>
+      <stop offset="100%" stop-color="#8fc477"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6d6" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#f3d27a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#f3d27a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1440" height="900" fill="url(#sky)"/>
+  <circle cx="1180" cy="150" r="170" fill="url(#sunGlow)"/>
+  <circle cx="1180" cy="150" r="72" fill="#fbe2a0"/>
+  <g opacity=".8" fill="#ffffff">
+    <ellipse cx="230" cy="150" rx="70" ry="26"/><ellipse cx="285" cy="138" rx="50" ry="22"/><ellipse cx="180" cy="140" rx="46" ry="20"/>
+  </g>
+  <g opacity=".7" fill="#ffffff">
+    <ellipse cx="720" cy="100" rx="60" ry="22"/><ellipse cx="765" cy="92" rx="42" ry="18"/><ellipse cx="680" cy="94" rx="38" ry="16"/>
+  </g>
+  <g opacity=".6" fill="#ffffff">
+    <ellipse cx="980" cy="230" rx="50" ry="18"/><ellipse cx="1015" cy="224" rx="36" ry="15"/>
+  </g>
+  <g stroke="#2f6437" stroke-width="3" fill="none" opacity=".5">
+    <path d="M340,210 q14,-16 28,0 M400,230 q14,-16 28,0 M460,205 q14,-16 28,0"/>
+  </g>
+  <path d="M0,340 C220,300 300,380 520,340 C740,300 780,380 1000,340 C1180,308 1300,360 1440,330 L1440,900 L0,900 Z" fill="#9ecb7d"/>
+  <path d="M0,430 C220,390 320,470 560,430 C760,398 820,460 1040,430 C1220,406 1320,450 1440,420 L1440,900 L0,900 Z" fill="#7fb968"/>
+  <path d="M0,520 C240,480 340,560 560,520 C780,486 860,550 1080,520 C1240,498 1340,540 1440,512 L1440,900 L0,900 Z" fill="#5fa156"/>
+  <path d="M0,610 C260,568 360,650 580,610 C800,574 880,640 1100,610 C1260,588 1350,624 1440,600 L1440,900 L0,900 Z" fill="#438046"/>
+  <path d="M0,700 C260,660 400,740 620,700 C820,664 900,726 1120,700 C1270,680 1360,712 1440,690 L1440,900 L0,900 Z" fill="#2f6437"/>
+  <g fill="#245030" opacity=".9">
+    <rect x="180" y="560" width="46" height="34" rx="3"/><polygon points="180,560 203,538 226,560"/>
+    <rect x="260" y="600" width="40" height="30" rx="3"/><polygon points="260,600 280,580 300,600"/>
+    <rect x="1050" y="590" width="46" height="34" rx="3"/><polygon points="1050,590 1073,568 1096,590"/>
+  </g>
+  <g stroke="#1e4a2b" stroke-width="4" fill="none" opacity=".55">
+    <path d="M120,780 q10,-60 0,-120"/><path d="M150,760 q14,-70 4,-140"/>
+    <path d="M1250,760 q-10,-60 0,-110"/><path d="M1290,780 q-16,-70 -4,-130"/>
+  </g>
+</svg>

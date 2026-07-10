@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Segera Hadir — KKN PINTAR 10 Desa Pajeng</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  .cs-wrap{ min-height:70vh; display:flex; align-items:center; justify-content:center; text-align:center; padding:80px 24px; }
+  .cs-icon{ width:80px; height:80px; border-radius:50%; background:var(--cream-2); color:var(--green-mid); display:flex; align-items:center; justify-content:center; margin:0 auto 24px; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-7.5 7-12a7 7 0 1 0-14 0c0 4.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg> Desa Pajeng, Kec. Gondang</div>
+    <div>KKN PINTAR 10 — Universitas Nahdlatul Ulama Sunan Giri</div>
+  </div>
+</div>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <img src="logo.jpeg" alt="Logo KKN PINTAR 10" width="40" height="40" style="border-radius:50%;object-fit:cover;">
+      <span class="brand-text">KKN PINTAR 10<small>Desa Pajeng &middot; Gondang</small></span>
+    </a>
+    <ul class="nav-links" id="navlinks">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="profil-desa.html">Profil Desa</a></li>
+      <li><a href="potensi-desa.html">Potensi Desa</a></li>
+      <li><a href="program-kerja.html">Program Kerja</a></li>
+      <li><a href="berita.html">Berita</a></li>
+      <li><a href="tim-kkn.html">Tim KKN</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="navtoggle" id="navtoggle" aria-label="Buka menu">≡</button>
+    </div>
+  </div>
+</header>
+
+<div class="cs-wrap">
+  <div>
+    <div class="cs-icon">
+      <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><path d="M12 7v5l3 3"/></svg>
+    </div>
+    <p class="section-tag center">Segera Hadir</p>
+    <h1 style="font-size:clamp(26px,3.6vw,38px);margin-bottom:12px;" id="cs-title">Halaman ini sedang disiapkan</h1>
+    <p style="color:var(--muted);max-width:460px;margin:0 auto 28px;">Kontennya masih dalam proses penyusunan oleh Tim KKN PINTAR 10. Silakan kembali lagi nanti.</p>
+    <a href="index.html" class="hero-cta" style="background:var(--green-mid);">Kembali ke Beranda</a>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0;">
+      <span>&copy; <span id="year">2026</span> KKN PINTAR 10 — Desa Pajeng</span>
+      <span>Universitas Nahdlatul Ulama Sunan Giri</span>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const judul = params.get('judul') || params.get('project');
+  if(judul){
+    document.getElementById('cs-title').textContent = judul + ' — Segera Hadir';
+  }
+</script>
+</body>
+</html>
