@@ -408,6 +408,25 @@ h1,h2,h3,h4{ font-family:var(--serif); font-weight:700; color:var(--green-deep);
 }
 .video-modal-close:hover{ background:#fff; }
 
+/* thumbnail gambar berita yang berfungsi sebagai tombol pemicu video (khusus Observasi UMKM) */
+.video-trigger-thumb{ cursor:pointer; }
+.video-trigger-thumb .thumb-play-icon{
+  position:absolute; inset:0; z-index:2;
+  display:flex; align-items:center; justify-content:center;
+  background:rgba(9,26,17,.28);
+  opacity:0; transition:opacity .3s var(--ease-soft);
+}
+.video-trigger-thumb .thumb-play-icon svg{
+  width:56px; height:56px; padding:16px; border-radius:50%;
+  background:rgba(255,255,255,.92); color:var(--green-deep);
+  box-shadow:0 8px 22px rgba(0,0,0,.3);
+  transform:scale(.85); transition:transform .3s var(--ease);
+}
+.video-trigger-thumb:hover .thumb-play-icon,
+.video-trigger-thumb:focus-visible .thumb-play-icon{ opacity:1; }
+.video-trigger-thumb:hover .thumb-play-icon svg,
+.video-trigger-thumb:focus-visible .thumb-play-icon svg{ transform:scale(1); }
+
 /* responsive */
 @media (max-width: 960px){
   .navbar{ position:sticky; }

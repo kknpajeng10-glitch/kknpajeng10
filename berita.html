@@ -58,7 +58,7 @@
 </section>
 
 <section class="section">
-  
+  <div class="container">
     <div class="filters reveal">
       <button class="filter-btn active" data-filter="all">Semua</button>
       <button class="filter-btn" data-filter="kegiatan">Kegiatan</button>
@@ -70,25 +70,42 @@
       <div class="card news-card" data-category="kegiatan">
         <div class="card-thumb"><img src="berita2.jpg" alt="Foto Berita 1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-5-4 4-2-2-5 5"/></svg></div></div>
         <div class="card-body">
-          <div class="meta">[Tanggal] &middot; Kegiatan</div>
+          <div class="meta">[06 Juli 2026] &middot; Kegiatan</div>
           <h3>[Pembinaan]</h3>
           <p>Ringkasan singkat berita atau kegiatan yang dilakukan tim KKN.</p>
           <a href="coming-soon.html?judul=Berita%201" class="link">Baca selengkapnya &rarr;</a>
         </div>
       </div>
       <div class="card news-card" data-category="sosialisasi">
-        <div class="card-thumb"><img src="berita1.jpg" alt="Foto Berita 2" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-5-4 4-2-2-5 5"/></svg></div></div>
+        <div class="card-thumb video-trigger-thumb" data-video="vd2.mp4" role="button" tabindex="0" aria-label="Putar video dokumentasi Observasi ke desa"><img src="berita1.jpeg" alt="Foto Berita 2" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-5-4 4-2-2-5 5"/></svg></div>
+          <div class="thumb-play-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+        </div>
         <div class="card-body">
-          <div class="meta">[Tanggal] &middot; Sosialisasi</div>
+          <div class="meta">[9 Juli 2026] &middot; Sosialisasi</div>
           <h3>[Observasi ke desa]</h3>
           <p>Ringkasan singkat berita atau kegiatan yang dilakukan tim KKN.</p>
-          <a href="coming-soon.html?judul=Berita%202" class="link">Baca selengkapnya &rarr;</a>
+          <a href="#" class="link video-trigger-link" data-video="vd2.mp4">Baca selengkapnya &rarr;</a>
+        </div>
+        </div>
+      <div class="card news-card" data-category="sosialisasi">
+        <div class="card-thumb video-trigger-thumb" data-video="umkm.mp4" role="button" tabindex="0" aria-label="Putar video dokumentasi Observasi UMKM"><img src="vd.jpeg" alt="Foto Berita 5" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-5-4 4-2-2-5 5"/></svg></div>
+          <div class="thumb-play-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="meta">[09 Juli 2026] &middot; Sosialisasi</div>
+          <h3>[Observasi UMKM]</h3>
+          <p>Ringkasan singkat berita atau kegiatan yang dilakukan tim KKN.</p>
+          <a href="#" class="link video-trigger-link" data-video="umkm.mp4">Baca selengkapnya &rarr;</a>
         </div>
       </div>
       <div class="card news-card" data-category="kegiatan">
         <div class="card-thumb"><img src="penlat1.jpeg" alt="Foto Berita 1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-5-4 4-2-2-5 5"/></svg></div></div>
         <div class="card-body">
-          <div class="meta">[Tanggal] &middot; Kegiatan</div>
+          <div class="meta">[07 juli 2026] &middot; Kegiatan</div>
           <h3>[Penlat 1]</h3>
           <p>Ringkasan singkat berita atau kegiatan yang dilakukan tim KKN.</p>
           <a href="coming-soon.html?judul=Berita%201" class="link">Baca selengkapnya &rarr;</a>
@@ -97,7 +114,7 @@
       <div class="card news-card" data-category="kegiatan">
         <div class="card-thumb"><img src="penlat2.jpeg" alt="Foto Berita 3" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-5-4 4-2-2-5 5"/></svg></div></div>
         <div class="card-body">
-          <div class="meta">[Tanggal] &middot; Kegiatan</div>
+          <div class="meta">[10 juli 2026] &middot; Kegiatan</div>
           <h3>[Penlat 2]</h3>
           <p>Ringkasan singkat berita atau kegiatan yang dilakukan tim KKN.</p>
           <a href="coming-soon.html?judul=Berita%203" class="link">Baca selengkapnya &rarr;</a>
@@ -106,19 +123,10 @@
       <div class="card news-card" data-category="kegiatan">
         <div class="card-thumb"><img src="penlat3.jpeg" alt="Foto Berita 4" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-5-4 4-2-2-5 5"/></svg></div></div>
         <div class="card-body">
-          <div class="meta">[Tanggal] &middot; Kegiatan</div>
+          <div class="meta">[14 juli 2026] &middot; Kegiatan</div>
           <h3>[Penlat 3]</h3>
           <p>Ringkasan singkat berita atau kegiatan yang dilakukan tim KKN.</p>
           <a href="coming-soon.html?judul=Berita%204" class="link">Baca selengkapnya &rarr;</a>
-        </div>
-      </div>
-      <div class="card news-card" data-category="sosialisasi">
-        <div class="card-thumb"><img src="tahu.jpeg" alt="Foto Berita 5" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-5-4 4-2-2-5 5"/></svg></div></div>
-        <div class="card-body">
-          <div class="meta">[Tanggal] &middot; Sosialisasi</div>
-          <h3>[Observasi UMKM]</h3>
-          <p>Ringkasan singkat berita atau kegiatan yang dilakukan tim KKN.</p>
-          <a href="#" class="link" id="videoTriggerObservasiUmkm">Baca selengkapnya &rarr;</a>
         </div>
       </div>
       <div class="card news-card" data-category="lingkungan">
@@ -166,12 +174,12 @@
   </div>
 </footer>
 
-<!-- Modal Video Dokumentasi — khusus kartu "Observasi UMKM" -->
+<!-- Modal Video Dokumentasi — dipakai bergantian oleh kartu "Observasi ke desa" (vd2.mp4) & "Observasi UMKM" (umkm.mp4) -->
 <div id="videoModal" class="video-modal">
   <div class="video-modal-inner">
     <button id="videoModalClose" class="video-modal-close" aria-label="Tutup">&times;</button>
     <video id="videoModalPlayer" controls playsinline>
-      <source src="umkm.mp4" type="video/mp4">
+      <source id="videoModalSource" src="" type="video/mp4">
       Browser Anda tidak mendukung pemutaran video.
     </video>
   </div>
@@ -180,23 +188,39 @@
 <script src="script.js"></script>
 <script>
 (function(){
-  var trigger = document.getElementById('videoTriggerObservasiUmkm');
   var modal = document.getElementById('videoModal');
   var player = document.getElementById('videoModalPlayer');
+  var source = document.getElementById('videoModalSource');
   var closeBtn = document.getElementById('videoModalClose');
 
-  if(trigger && modal && player && closeBtn){
-    trigger.addEventListener('click', function(e){
-      e.preventDefault();
-      modal.classList.add('open');
-      player.play();
+  function openModal(videoFile, e){
+    if(e) e.preventDefault();
+    if(!videoFile) return;
+    source.src = videoFile;
+    player.load();
+    modal.classList.add('open');
+    player.play();
+  }
+  function closeModal(){
+    modal.classList.remove('open');
+    player.pause();
+    player.currentTime = 0;
+  }
+
+  if(modal && player && source && closeBtn){
+    // semua elemen dengan atribut data-video (gambar & link "Baca selengkapnya") jadi pemicu video
+    var triggers = document.querySelectorAll('[data-video]');
+    triggers.forEach(function(el){
+      el.addEventListener('click', function(e){
+        openModal(el.getAttribute('data-video'), e);
+      });
+      el.addEventListener('keydown', function(e){
+        if(e.key === 'Enter' || e.key === ' '){
+          openModal(el.getAttribute('data-video'), e);
+        }
+      });
     });
 
-    function closeModal(){
-      modal.classList.remove('open');
-      player.pause();
-      player.currentTime = 0;
-    }
     closeBtn.addEventListener('click', closeModal);
     modal.addEventListener('click', function(e){
       if(e.target === modal) closeModal();
