@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kknpajeng10-glitch.github.io/kknpajeng10/sitemap.xml
